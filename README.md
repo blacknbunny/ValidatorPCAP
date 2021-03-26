@@ -45,4 +45,6 @@ We can use it as a "network activity tracker" by tracking the network activity o
 
 After making comperasion with this tool we can use our "founded ip address/addresses" to investigate it on our Lab or in applications like (Wireshark, Tcpdump, etc...).
 
+For example i created this tool while i was trying to install *Netflix* from *Microsoft Store* and browser didn't allowed me to join web site of *Microsoft Store* then i found that application was added rules to *Windows Firewall* without my permission and i tracked network activty via the ip addresses i found on *Windows Defender Firewall* rules.
+
 Also we can use it in malware analysis, fingerprinting, etc..
