@@ -39,3 +39,7 @@ The reason i made this tool is most of us doesn't even knows what Inbound/Outbou
 Basically what im tryna say is by learning what rules came from us and what rules doesn't came from us we can Accept/Reject it.
 
 With this tool you can track the network activity of the application that Inbound/Outbound rules are defined by *Windows Defender Firewall* as Accepted/Rejected.
+
+# What else this tool can be used by ?
+We can use it as a "network activity tracker" by tracking the network activity of the application that we want by disabling the Accept/Reject rule in *Windows Defender Firewall Advanced Security GUI* then comparing the ip address/adresses that defined as a rule by *Windows Firewall* with the ip adress/adresses captured in our computer via (Wireshark, tcpdump, etc..) and saved as (PCAP/PCAPNG) file. etc...
+
