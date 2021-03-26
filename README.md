@@ -6,3 +6,29 @@ This tool allows you to find ip addresses in PCAP file by making comparison betw
 
 ## Usage
 
+First execute bash file to extract ip addresses that captured from any computer which involved in network activity of any application that we want to compare with other list named as "iplist.txt" the picture shows us how to export blocked/allowed ip addresses from windows firewall gui.
+
+Bash file will write ip addresses in PCAP file to the .txt file named as "incomingiplist.txt".
+```
+chmod +x tcpdumpextractipfrompcap.sh
+./tcpdumpextractipfrompcap.sh capturednetworkpackets.pcap
+```
+
+![image](https://user-images.githubusercontent.com/33333043/112561615-a2e76400-8de6-11eb-8e56-db25dfd957b2.png)
+
+
+After you export "iplist.txt" from windows firewall and execute the bash file to create "incomingiplist.txt" includes ip addresses that you want to find in "iplist.txt", you have to execute "compare_blockedip_address.py" to compare two list to find same ip addresses.
+
+```
+C:\Users\*-*\Desktop\unblockingmicrosoftipaddress>python compare_blockedip_address.py
+Found An IP Address : 13.107.18.11
+Found An IP Address : 13.107.21.200
+Found An IP Address : 13.107.42.12
+Found An IP Address : 13.107.6.254
+Found An IP Address : 52.114.132.91
+Found An IP Address : 52.158.24.209
+Found An IP Address : 40.125.122.151
+Found An IP Address : 40.70.229.150
+Found An IP Address : 52.155.217.156
+Found An IP Address : 52.155.223.194
+```
