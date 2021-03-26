@@ -32,3 +32,10 @@ Found An IP Address : 40.70.229.150
 Found An IP Address : 52.155.217.156
 Found An IP Address : 52.155.223.194
 ```
+
+## Description
+The reason i made this tool is most of us doesn't even knows what Inbound/Outbound rules is defined in *Windows Defender Firewall* (Can it cause a damage ?, Are all these rules the same as the rules we want?, etc..).
+
+Basically what im tryna say is by learning what rules came from us and what rules doesn't came from us we can Accept/Reject it.
+
+With this tool you can track the network activity of the application that Inbound/Outbound rules are defined by *Windows Defender Firewall* as Accepted/Rejected.
